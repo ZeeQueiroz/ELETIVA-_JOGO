@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Cobrinha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="tela-inicial">
+  <img src="img/tela_animada2.gif" alt="Tela Inicial">
+  <button id="botao-iniciar">Iniciar Jogo</button>
+</div>
+
+<div id="tela-gameover">
+  <h1>Game Over</h1>
+  <p id="pontuacao-final">Pontuação: 0</p>
+  <p id="fase-final">Fase: 1</p>
+  <div class="botoes-gameover">
+    <button id="botao-reiniciar">Reiniciar</button>
+    <button id="botao-voltar">Voltar para o Início</button>
+  </div>
+</div>
+
+<div id="hud">
+  <div id="pontuacao">Pontos: 0</div>
+  <div id="fase">Fase: 1</div>
+  <div id="instrucoes">
+    <strong>Controles:</strong><br>
+    W = Cima<br>
+    A = Esquerda<br>
+    S = Baixo<br>
+    D = Direita
+  </div>
+</div>
+
+<canvas id="jogo" width="400" height="400"></canvas>
+
+<script src="js/script.js"></script>
+</body>
+</html>

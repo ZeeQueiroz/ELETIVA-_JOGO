@@ -1,0 +1,130 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  gap: 20px;
+  flex-direction: row;
+}
+
+#hud {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  width: 180px;
+  user-select: none;
+}
+
+#pontuacao,
+#fase {
+  font-size: 16px;
+  text-align: left;
+}
+
+#instrucoes {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.3;
+}
+
+#tela-inicial {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+#tela-inicial img {
+  width: 400px;
+  height: auto;
+}
+
+#botao-iniciar {
+  background-color: #222;
+  color: #0f0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  padding: 12px 24px;
+  border: 3px solid #0f0;
+  box-shadow: 3px 3px 0 #060, inset 0 0 0 2px #0f0;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+  user-select: none;
+  margin-top: 20px;
+}
+
+#botao-iniciar:hover {
+  background-color: #0f0;
+  color: #020;
+  box-shadow: 0 0 10px #0f0, inset 0 0 8px #0a0;
+}
+
+#botao-iniciar:active {
+  box-shadow: inset 3px 3px 0 #060;
+  background-color: #070;
+  color: #0f0;
+}
+
+#tela-gameover {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  display: none;
+}
+
+.botoes-gameover {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+#tela-gameover button {
+  background-color: #222;
+  color: #0f0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  padding: 12px 24px;
+  border: 3px solid #0f0;
+  box-shadow: 3px 3px 0 #060, inset 0 0 0 2px #0f0;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+  user-select: none;
+}
+
+#tela-gameover button:hover {
+  background-color: #0f0;
+  color: #020;
+  box-shadow: 0 0 10px #0f0, inset 0 0 8px #0a0;
+}
+
+#tela-gameover button:active {
+  box-shadow: inset 3px 3px 0 #060;
+  background-color: #070;
+  color: #0f0;
+}
+
+#jogo {
+  background: #111;
+  border: 2px solid #fff;
+  position: relative;
+  z-index: 1;
+}
