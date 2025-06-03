@@ -20,6 +20,8 @@ Um jogo da cobrinha clássico desenvolvido em HTML, CSS e JavaScript puro, com u
 
 ------------------------------------------------------------
 
+## Controles
+
 | Tecla | Ação     |
 | ----- | -------- |
 | **W** | Cima     |
@@ -28,4 +30,12 @@ Um jogo da cobrinha clássico desenvolvido em HTML, CSS e JavaScript puro, com u
 | **D** | Direita  |
 
 ------------------------------------------------------------
+
+## Telas
+
+![image](https://github.com/user-attachments/assets/ef896d10-31ed-4d88-8ee4-53cb1d3de2ae)
+![image](https://github.com/user-attachments/assets/bee165ff-997b-4963-a859-411ad1843c8f)
+![image](https://github.com/user-attachments/assets/83f787b1-ce28-4f24-9df3-cb6503819cf1)
+
+
 
